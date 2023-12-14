@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+<style>
+   header{
+        height: 110px;
+        width: 100%;
+        background-color: rgb(179, 129, 101);   
+        padding-top: 15px;
+    }
+    .headings{
+      margin-top: 10px;
+      padding-top: 15px;
+    }
+    .images{
+      width: 100%;
+      height: 400px;
+    }
+    .card{
+      height: 500px;
+      width: 100%;
+      border-color: red;
+    }
+    .type{
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 32px;
+      text-decoration: underline;
+    }
+    .row
+      {
+  --bs-gutter-x: 0rem;
+
+     }
+ 
+</style>
+  </head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+     <img class="logo" src="../images/logo.png" alt="">
+      <a class="navbar-brand name animate__animated animate__swing" href="#">Fitness Freak</a>
+      <div class="col-md-2"></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse animate__animated animate__bounceInDown" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../HTML/Pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../HTML/books.html">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../HTML/whychooseus.html">Why Choose Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../HTML/contactus.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="menubar row">
+    <div class="col-4">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="../HTML/conditions.html">1: Conditions (do and don'ts) </a>
+          <a href="../HTML/Diseases.html">2: Courses for Diseases</a>
+          <a href="../HTML/Mediation.html">3: Benefits of Mediation</a>
+          <a href="../HTML/poses.html">4: Poses</a>
+          
+        </div>
+      </div>
+      <div onclick="openNav()">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        <span class="menu">Menu</span>
+      </div>
+    </div>
+    <div class="col-8 pt-1">
+      <b> “Take care of your body. Its the only place you have to live.” </b>
+    </div>
+  </div>
+
+    <section>
+        <div class="container-fluid">
+            <div class="headings"><h2><center>POSES BASED ON TYPE , BENEFIT , GENERAL AND ANATOMY</center></h2>
+            </div>       
+
+              <br>
+          <h3 class="type">POSES BASED ON TYPE </h3>
+              <br>
+           <div class="row row-cols-1 row-cols-md-2 g-4">
+           <div class="col">
+           <div class="card">
+            <img class="images" src="../images/low impact.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">1.Low-impact aerobics:</h5>
+              <p class="card-text">This type of exercise is ideal for beginners or those with joint pain. 
+                It involves movements that keep one foot on the ground , such as walking, swimming, 
+                or cycling.</p>
+            </div>
+           </div>
+           </div>
+           <div class="col">
+           <div class="card">
+            <img class="images" src="../images/high impact.webp" class="card-img-top" alt="...">
+            <div  class="card-body">
+              <h5 class="card-title">2.High-impact aerobics:</h5>
+              <p class="card-text">This type of exercise is more intense and involves movements that 
+                require both feet to leave the ground, such as jumping jacks, burpees, or running. </p>
+            </div>
+           </div>
+           </div>
+           <div class="col">
+           <div class="card">
+            <img class="images" src="../images/dance aerobic.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">3.Dance aerobics: </h5>
+              <p class="card-text">This type of exercise combines dance moves with aerobic exercise. Examples include Zumba, Jazzercise, or hip-hop dance classes.
+              </p>
+            </div>
+           </div>
+           </div>
+           <div class="col"  >
+           <div class="card">
+            <img class="images" src="../images/step aerobic.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">4.Step aerobics: </h5>
+              <p class="card-text">This type of exercise involves using a raised platform or step to perform movements such as stepping up and down, lunging, or squatting</p>
+            </div>
+           </div>
+          </div>
+          </div>
+
+            <br>
+          <h3 class="type">POSES BASED ON BENEFITS </h3>
+            <br>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+            <div class="card">
+             <img class="images" src="../images/sun salutation.webp" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">1.Sun Salutation: </h5>
+               <p class="card-text">This is a sequence of 12 yoga poses that can be performed in a flow. 
+                It is great for warming up the body and increasing blood circulation.</p>
+             </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+             <img class="images" src="../images/warrior II.webp" class="card-img-top" alt="...">
+             <div  class="card-body">
+               <h5 class="card-title">2.Warrior II:</h5>
+               <p class="card-text">This pose strengthens the legs, opens the hips, and improves balance. 
+                It also helps to increase stamina and endurance .</p>
+             </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+             <img class="images" src="../images/chair pose.webp" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">3.Chair Pose: </h5>
+               <p class="card-text">This pose strengthens the legs, glutes, and core muscles. 
+                It also helps to improve posture and balance . </p>
+             </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+             <img class="images" src="../images/boat pose.webp" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">4..Boat Pose: </h5>
+               <p class="card-text">This pose strengthens the core muscles and improves digestion. 
+                It also helps to reduce stress and anxiety .</p>
+             </div>
+            </div>
+           </div>
+           </div>
+         
+           <br>
+           <h3 class="type">POSES BASED ON GENERAL </h3>
+             <br>
+           <div class="row row-cols-1 row-cols-md-2 g-4">
+             <div class="col">
+             <div class="card">
+              <img class="images" src="../images/Side-Leg-Raises-Side-Leg-Lifts-.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">1.Side Leg Lifts: </h5>
+                <p class="card-text">Stand with feet together and lift one leg out to the side, then lower it and 
+                  repeat on the other side.</p>
+              </div>
+             </div>
+             </div>
+             <div class="col">
+             <div class="card">
+              <img class="images" src="../images/front-Leg-Lifts-Step.jpeg" class="card-img-top" alt="...">
+              <div  class="card-body">
+                <h5 class="card-title">2.Front Leg Kicks: </h5>
+                <p class="card-text">Stand with feet together and kick one leg forward, then lower it and repeat with the other leg.</p>
+              </div>
+             </div>
+             </div>
+             <div class="col">
+             <div class="card">
+              <img class="images" src="../images/cross skiing.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">3.Cross-Country Skiing:: </h5>
+                <p class="card-text">Mimic the motion of cross-country skiing by moving your arms and legs alternately. </p>
+              </div>
+             </div>
+             </div>
+             <div class="col">
+             <div class="card">
+              <img class="images" src="../images/fast dance.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">4.Fast-Paced Dancing: </h5>
+                <p class="card-text">Dance to your favorite music with fast, rhythmic movements.</p>
+              </div>
+             </div>
+            </div>
+            </div>
+
+            <br>
+           <h3 class="type">POSES BASED ON ANATOMY </h3>
+             <br>
+           <div class="row row-cols-1 row-cols-md-2 g-4">
+             <div class="col">
+             <div class="card">
+              <img class="images" src="../images/neck tilt.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">1.Neck Tilt:  </h5>
+                <p class="card-text">Gently tilt your head from side to side to stretch the neck muscles.</p>
+              </div>
+             </div>
+             </div>
+             <div class="col">
+             <div class="card">
+              <img class="images" src="../images/shoulder roll.jpeg" class="card-img-top" alt="...">
+              <div  class="card-body">
+                <h5 class="card-title">2.Shoulder Rolls:</h5>
+                <p class="card-text">Roll your shoulders forward and backward to release tension in the shoulders.</p>
+              </div>
+             </div>
+             </div>
+             <div class="col">
+             <div class="card">
+              <img class="images" src="../images/child pose.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">3.Child's Pose: </h5>
+                <p class="card-text">Kneel on the floor and sit back on your heels, reaching your arms forward for a gentle spinal stretch.</p>
+              </div>
+             </div>
+             </div>
+             <div class="col">
+             <div class="card">
+              <img class="images" src="../images/OIP.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">4..Cat-Cow Stretch: </h5>
+                <p class="card-text"> Get on your hands and knees, arch your back like a cat, then lower your belly and lift your head for a cow stretch.</p>              
+              </div>
+             </div>
+            </div>
+            </div>
+            
+            
+              <br>
+
+          </div>
+          </div>
+        </div>
+        <br>
+        
+
+        <script>
+          function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+          }
+          function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+          }
+          </script>
+          
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
